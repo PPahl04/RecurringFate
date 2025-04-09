@@ -44,9 +44,9 @@ In den Einstellungen, kann man die erstellten Einträge in einer JSON Datei absp
 1. Repository klonen:
    ```bash
    git clone https://github.com/PPahl04/RecurringFate.git
-   cd RecurringFate
+   cd "Recurring Fate"
 
 2. Anwendung starten
     ```bash
     dotnet build
-    dotnet run
+    "Recurring Fate\bin\Debug\net8.0-windows\Recurring Fate.exe"
