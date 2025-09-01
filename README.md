@@ -1,52 +1,39 @@
-# Recurring Fate
+# Overview
 
-Die Windows Desktop Anwendung "Recurring Fate" dient dazu, Einträge zu verfassen und die Zeitabstände der vorhandenen Einträge einzusehen.
+This Windows desktop application “Recurring Fate” is used to create entries and view the days between existing entries.
 
-![Übersicht der Einträge](images/EntriesTab.png "Entry Tab")
+![Overview of entries](images/EntriesTab.png "Entry Tab").
 
-Diese Einträge werden in einer Liste behalten und werden in einer Übersicht dargestellt. In dieser Übersicht kann man die Zeitabstände der Einträge einsehen.
+These entries are kept in a list and displayed in an overview. In this overview, you can view the days between those entries.
 
+![Create entry](images/CreateEntryTab.png "Create Tab").
 
-![Eintrag erstellen](images/CreateEntryTab.png "Create Tab")
+Each entry requires the following data:
+- Title
+- Description
+- Date
 
-Jeder Eintrag benötigt folgene Daten:
-- Titel
-- Beschreibung
-- Datum
+In the settings, you can save the created entries in a JSON file and reload them. Created entries can also be edited or deleted via the “Entry” tab.
 
-In den Einstellungen, kann man die erstellten Einträge in einer JSON Datei abspeichern und sie wieder laden. Erstellte Einträge kann man auch bearbeiten oder löschen über den "Entry" Tab.
+---
+## Functions
+
+- Creating entries
+- Editing existing entries
+- Saving data to a JSON file
+- Loading valid JSON files to load existing entries
+- Deleting entries
 
 ---
 
-## 🛠️ Technologien
+## Installation
 
-- **Sprache:** C#
-- **Framework:** .NET 4.7.2 (oder höher)
-- **Entwicklungsumgebung:** Visual Studio
-- **Weitere Tools:** [Newtonsoft Json von JamesNK](https://github.com/JamesNK/Newtonsoft.Json)
----
-
-## 🚀 Funktionen
-
-- Erstellung von Einträgen
-- Bearbeitung von vorhandenen Einträgen
-- Datenspeicherung zu einer JSON-Datei
-- Laden von validen JSON Dateien, um vorhandene Einträge zu laden
-
-- Löschen von Einträgen
-
----
-
-## 🔧 Installation & Ausführung
-
-### Schritte
-
-1. Repository klonen:
+1. Clone repo:
    ```bash
    git clone https://github.com/PPahl04/RecurringFate.git
    cd "Recurring Fate"
 
-2. Anwendung starten
+2. Start program
     ```bash
     dotnet build
     "Recurring Fate\bin\Debug\net8.0-windows\Recurring Fate.exe"
